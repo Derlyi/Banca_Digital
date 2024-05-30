@@ -31,3 +31,11 @@
 .text-punto {
     color: var(--primary);
 }
+
+.card-text-one {
+    color: var(--primary);
+}
+
+.bg-phone {
+    background-color: gainsboro;
+}
