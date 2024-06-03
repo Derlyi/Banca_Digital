@@ -1,11 +1,11 @@
-:root {
-    --primary: #6209DB;
+:root{
+    --primary: #6209db;
     --dark: #000000;
     --light: #ffffff;
     --grey: #f5f5f5;
 }
 
-.btn-primary {
+.btn-primary{
     background-color: var(--primary);
     border-color: var(--primary);
 }
@@ -16,26 +16,33 @@
     color: var(--primary);
 }
 
-.btn-light {
+.btn-light{
     background-color: var(--light);
     border-color: var(--light);
     color: var(--primary);
 }
 
-.btn-light:hover {
-    background-color: var(--light);
-    border-color: var(--primary);
+.text-punto{
     color: var(--primary);
 }
 
-.text-punto {
-    color: var(--primary);
+.badge{
+    background-color: var(--primary);
 }
 
-.card-text-one {
+.text{
     color: var(--primary);
 }
 
 .bg-phone {
-    background-color: gainsboro;
+    background-color: rgb(241, 241, 241);
+    border-radius: 10px;
+}
+
+.icon-link {
+    color: var(--primary);
+}
+
+.bg-morado {
+    background-color: var(--primary);
 }
